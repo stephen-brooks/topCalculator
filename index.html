@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super-Duper Calculator</title>
+    <script src="calculator.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>My Super-Duper Calculator</p>
+    </header>
+    <div id='content'>
+        <div id = 'container'>
+            <div id = 'screen'> 
+                <p id = 'calculator-output'></p>
+            </div>
+            <div id = 'button-container'>
+                <div id = 'button-row-1' class = 'button-row'>
+                    <button id = 'ac-button' class = 'bigger-button symbol-button' data-value=Escape>AC</button>
+                    <button id = 'del-button' class = 'symbol-button' data-value=Backspace>DEL</button>
+                    <button class = 'operator-button symbol-button key' data-value='+'>+</button>
+                </div>
+                <div id = 'button-row-2' class = 'button-row'>
+                    <button class = 'number-button key' data-value='1'>1</button>
+                    <button class = 'number-button key' data-value='2'>2</button>
+                    <button class = 'number-button key' data-value='3'>3</button>
+                    <button class = 'operator-button symbol-button key' data-value='*'>*</button>
+                </div>
+                <div id = 'button-row-3' class = 'button-row'>
+                    <button class = 'number-button key' data-value='4'>4</button>
+                    <button class = 'number-button key' data-value='5'>5</button>
+                    <button class = 'number-button key' data-value='6'>6</button>
+                    <button class = 'operator-button symbol-button key' data-value='/'>÷</button>
+                </div>
+                <div id = 'button-row-4' class = 'button-row'>
+                    <button class = 'number-button key' data-value='7'>7</button>
+                    <button class = 'number-button key' data-value='8'>8</button>
+                    <button class = 'number-button key' data-value='9'>9</button>
+                    <button class = 'operator-button symbol-button key' data-value='-'>-</button>
+                </div>
+                <div id = 'button-row-1' class = 'button-row'>
+                    <button class = 'number-button key' data-value='0'>0</button>
+                    <button class = 'number-button key' data-value='.'>.</button>
+                    <button id = 'equal-button' class = 'bigger-button symbol-button key' data-value=Enter>=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Developed by SB Industries</p>
+    </footer>
+</body>
+</html>
