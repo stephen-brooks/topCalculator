@@ -1,3 +1,8 @@
-# topCalculator
+# Odin Project Calculator
+A basic website to view recipes
 
-Basic calulator with key input compaitiblity
+## Getting Started
+Open link below, you can click on calculator buttons or use corresponding keyboard buttons
+
+## Authors
+Stephen Brooks
